@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+                    /*HEADER*/
+
+header{
+    left: 0px;
+    top: 0px;
+    width: auto;
+    height: auto;
+    display: block;
+    text-decoration: none;
+}
+
+.logo{
+    vertical-align: middle;
+    float: left;
+    margin-top: 1rem;
+} 
+header a{
+    color: black;
+}
+a:hover{
+    color: black;
+    font-style: normal;
+}
+.login-button{
+    padding-left: 180px;
+}
+
+                    /*COMPRAS*/
+#novidades{
+    margin-top:3rem;
+    text-align: center;
+    margin-bottom: 3rem;    
+}
+#novidades h1{
+    text-align: center;
+    font-size: 4rem;
+}
+#card{
+    
+    width: 15rem;
+    float: left;
+    margin: 1rem;
+}
+
+.card-img{
+    border-radius: top  calc(0.25rem - 1px);
+    border-radius: bottom 0px;
+}
+
+#img{
+    position: relative;
+    z-index: 1;
+}
+.card-img{
+    border-radius: 1rem;
+}
+#nome_produto{
+    color: black;
+    font-size: 1.3rem;
+}
+
+
+                            /*LOGIN*/
+#card-login{
+    margin-top: 5rem;
+    border-radius: 20px;
+    padding: 10px;
+}
+#card-login h4{
+    color: black;
+    text-align: center;
+}
+
+.login-input{
+    text-align: center;
+    margin-top: 0.8rem;
+    border-radius: 15px;
+    width: 350px;
+}
+.login-input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+ }
+ input:focus:-moz-placeholder { 
+    color: transparent;  
+ }
+ input:focus::-moz-placeholder {  
+    color: transparent;  
+ }
+ input:focus:-ms-input-placeholder {  
+    color: transparent;  
+ }
+#card-login h4{
+    margin-top:2rem;
+    
+}
+.btn-login{
+    margin-top: 1rem;
+    width: 150px;
+    vertical-align: auto;
+    margin-left: 58px;
+    background-color: black;
+    border-color: transparent;
+}
+
+#entsai{
+    width:300px
+}
+
+#login-btn{
+    margin-bottom: 1rem;
+    background-color: black;
+    border-color: transparent;
+}
+#entr-btn{
+    background-color: black;
+    border-color: transparent;
+}
+
+                    /*CONTATO*/
+#card-contato{
+    margin-top: 5rem;
+    border-radius: 20px;
+    padding: 10px;
+}
+#card-contato h4{
+    color: black;
+    text-align: center;
+}
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+ }
+ textarea:focus:-moz-placeholder { 
+    color: transparent;  
+ }
+ textarea:focus::-moz-placeholder {  
+    color: transparent;  
+ }
+ textarea:focus:-ms-input-placeholder {  
+    color: transparent;  
+ }
