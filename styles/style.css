@@ -40,28 +40,27 @@ a:hover{
     text-align: center;
     font-size: 4rem;
 }
-#card{
-    
-    width: 15rem;
-    float: left;
-    margin: 1rem;
-}
 
-.card-img{
-    border-radius: top  calc(0.25rem - 1px);
-    border-radius: bottom 0px;
+.card{
+    border-radius: 15px;
+    margin:10px;
+    width: 200px;
+    height: 240px;
+    display: grid;
+    row-gap: 50px;
+    justify-content: center;
+    align-items:baseline;
 }
-
-#img{
-    position: relative;
-    z-index: 1;
+.card-img-top{
+    width:100%;
+    height:auto;
+    border-radius: 0;
 }
-.card-img{
-    border-radius: 1rem;
+.card-title{
+    font-family: 'Roboto', sans-serif;
 }
-#nome_produto{
-    color: black;
-    font-size: 1.3rem;
+.card img{
+    max-height: 500px;
 }
 
 

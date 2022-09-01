@@ -13,18 +13,16 @@ include_once './includes/footer.php';
 <?php
 for ($i=0; $i < 8 ; $i++) { 
 ?>
-
-<div class="container">
-<div id="card">
-    
-<div id="img" >
-    <img id="imgs" class="card-img" src="https://pbs.twimg.com/media/FYSKSCcUEAAtcgu?format=jpg&name=small" alt="Imagem do card">
+    <div class="card">
+        <a href="produto-detalhe.php">
+            <img src="content/camiseta-preta.jpg" class="card-img-top">
+            <div class="card-body">
+                <p class="card-title text-center text-dark">Gatinho Brabo</p>
+                <p class="card-text text-center text-dark">R$ 600,00</p>
+            </div>
+        </a>
     </div>
-    <a id="nome_produto" href="">Ted Churrasqueiro</a>
- 
-</div>
-</div>
-</div>
+
 <?php
 }
 ?>

@@ -7,7 +7,7 @@ include_once './includes/footer.php';
 
 <body id="login">
     <div id="card-contato" style="width: 30rem ;" class="card container">
-     <h4><b> Contate-nos por aqui</b></h4>
+     <h4><b>Mostre o que achou de nossos produtinhos</b></h4>
 
      <form id="formulario-login" action="./consulta.php" method="post">
         <textarea class="input-group-text container login-input" type="text" placeholder="Feedback" name="nome"/></textarea>
